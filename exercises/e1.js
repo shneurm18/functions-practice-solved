@@ -1,5 +1,5 @@
 // FUNCTIONS: Basics
-// BEFORE YOU START: please read the /exercises-info/e1.md file.
+// BEFORE YOU START: please read the /exercises-info/e1.md file.k
 // NAMED FUNCTION SYNTAX: is described in /exercises-info/e4.md file.
 
 /**
@@ -14,9 +14,12 @@
 */
 
 // Your code goes here
+function logMessage() {
+  console.log('Hello, World!');
+  
+}
 
-
-
+logMessage();
 
 /**
  * =============================================================
@@ -30,8 +33,12 @@
 */
 
 // Your code goes here...
+function logMyMessage(message) {
+  console.log(message);
 
+}
 
+logMyMessage('I log my first message!');
 
 
 /**
@@ -45,8 +52,12 @@
 */
 
 // Your code goes here...
+function logMessageWithMyName(name) {
+  console.log('My name is ' + name + '!');
 
+}
 
+logMessageWithMyName('Shneur');
 
 
 /**
@@ -61,9 +72,12 @@
 */
 
 // Your code goes here...
+function logMyInfo(name, age) {
+  console.log('My name is ' + name + '. ' + 'I am ' + age + ' years old!');
+  
+}
 
-
-
+logMyInfo('Shneur', 24)
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-1"
